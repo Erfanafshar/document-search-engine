@@ -1,0 +1,44 @@
+آنالیز مختلط
+از ویکی‌پدیا، دانشنامهٔ آزاد
+نمایش تابع f(x)=(x2-1)(x-2-i)2/(x2+2+2i). در این تصویر رنگ آرگومان تابع را نشان می‌دهد و شدت رنگ بیانگر اندازه است.
+
+آنالیز مختلط یا نظریه توابع، نام مبحثی در ریاضیات است که در آن به توابع مشتق‌پذیر با مقادیر مختلط پرداخته می‌شود.
+محتویات
+
+    ۱ مفاهیم و قضیه‌های اساسی
+        ۱.۱ تابع مختلط
+        ۱.۲ مشتق‌پذیری
+        ۱.۳ فرمول کوشی
+        ۱.۴ قضیه مانده‌ها
+        ۱.۵ بسط دادن
+    ۲ منابع
+
+مفاهیم و قضیه‌های اساسی
+تابع مختلط
+
+تابعی است که هم دامنه تعریف آن و هم مقدار آن هردو مختلط باشند. به این ترتیب، یک تابع مختلط، تابعی است با تعریف
+
+f : C → C , x + i y ↦ f ( x + i y ) = u ( x , y ) + i v ( x , y ) . {\displaystyle f\colon \,\mathbb {C} \to \mathbb {C} ,\;x+iy\mapsto f(x+iy)=u(x,y)+iv(x,y).} {\displaystyle f\colon \,\mathbb {C} \to \mathbb {C} ,\;x+iy\mapsto f(x+iy)=u(x,y)+iv(x,y).}
+
+از آنجا که C {\displaystyle \mathbb {C} } \mathbb{C} با R 2 {\displaystyle \mathbb {R} ^{2}} {\displaystyle \mathbb {R} ^{2}} هم‌ارز است، گاهی تعریف f : R 2 → R 2 {\displaystyle f\colon \,\mathbb {R} ^{2}\to \mathbb {R} ^{2}} {\displaystyle f\colon \,\mathbb {R} ^{2}\to \mathbb {R} ^{2}} نیز بکار برده می‌شود.
+مشتق‌پذیری
+
+به تابعی که مختلط مشتق‌پذیر باشد، تابع تحلیلی یا تابع تمامریخت گفته می‌شود و آن زمانی است که حد زیر در دایره بازی، در اطراف نقطه z 0 {\displaystyle z_{0}} {\displaystyle z_{0}} وجود داشته باشد. در اینجا مسلماً z {\displaystyle z} z یک مقدار مختلط است.
+
+f ′ ( z 0 ) = lim z → z 0 f ( z ) − f ( z 0 ) z − z 0 {\displaystyle f'(z_{0})=\lim _{z\rightarrow z_{0}}{f(z)-f(z_{0}) \over z-z_{0}}} {\displaystyle f'(z_{0})=\lim _{z\rightarrow z_{0}}{f(z)-f(z_{0}) \over z-z_{0}}}
+
+تعریف بالا، هم ارز است با شرایط کوشی-ریمان که به راحتی از آن به دست می‌آید. f ( z ) = u ( z ) + i v ( z ) , z = x + i y {\displaystyle f(z)=u(z)+iv(z),\quad z=x+iy} {\displaystyle f(z)=u(z)+iv(z),\quad z=x+iy}:
+
+∂ u ∂ x = ∂ v ∂ y , ∂ u ∂ y = − ∂ v ∂ x {\displaystyle {\frac {\partial u}{\partial x}}={\frac {\partial v}{\partial y}}\quad ,\quad {\frac {\partial u}{\partial y}}=-{\frac {\partial v}{\partial x}}} {\displaystyle {\frac {\partial u}{\partial x}}={\frac {\partial v}{\partial y}}\quad ,\quad {\frac {\partial u}{\partial y}}=-{\frac {\partial v}{\partial x}}}
+فرمول کوشی
+
+فرمول انتگرال کوشی یا به‌طور بهتر قضیه کوشی، برای هر تابعی که بر روی محیط خاصی تحلیلی باشد، صادق است:
+
+f ( z ) = 1 2 π i ∮ f ( z ′ ) z ′ − z d z ′ {\displaystyle f(z)={\frac {1}{2\pi i}}\oint {\frac {f(z')}{z'-z}}dz'} {\displaystyle f(z)={\frac {1}{2\pi i}}\oint {\frac {f(z')}{z'-z}}dz'}
+
+در اینجا، انتگرال مسیری، بر روی محیطی انجام می‌پذیرد که تابع در آن مشتق‌پذیر است.
+قضیه مانده‌ها
+
+(انگلیسی: Residue theorem) به مقاله اصلی مراجعه شود.
+بسط دادن
+بر خلاف، توابع حقیقی، بسط تیلور برای توابع تحلیلی، همیشه امکان‌پذیر است. از این گذشته، در شرایط خاصی نیز می‌توان از بسط لورنتس در این تئوری استفاده کرد. 

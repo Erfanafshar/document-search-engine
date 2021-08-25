@@ -1,0 +1,37 @@
+نگاشت خطی
+از ویکی‌پدیا، دانشنامهٔ آزاد
+
+نگاشت خطی یا ترادیسش خطی، یک تابع بین دو فضای برداری است که دو عملیات جمع برداری و ضرب نرده‌ای را باقی نگه می‌دارد. این تابع همچنین رابطهٔ مستقیمی با عبارت عملگر خطی دارد که معمولاً در نگاشت‌های خطی از یک فضای برداری استفاده می‌شوند. گاهی اوقات تعریف یک تابع خطی همزمان با یک نگاشت خطی، در هندسه تحلیلی بسیار شباهت دارد.
+مثال‌هایی از جابجایی خطی در ماتریس‌ها
+
+جابجایی: چرخش ۹۰ درجه بر خلاف جهت عقربه‌های ساعت:
+
+        A = ( 0 − 1 1 0 ) {\displaystyle \mathbf {A} ={\begin{pmatrix}0&-1\\1&0\end{pmatrix}}} {\mathbf {A}}={\begin{pmatrix}0&-1\\1&0\end{pmatrix}}
+
+    دوران با زاویه θ در جهت خلاف عقربه‌های ساعت:
+
+        A = ( cos ⁡ ( θ ) − sin ⁡ ( θ ) sin ⁡ ( θ ) cos ⁡ ( θ ) ) {\displaystyle \mathbf {A} ={\begin{pmatrix}\cos(\theta )&-\sin(\theta )\\\sin(\theta )&\cos(\theta )\end{pmatrix}}} {\mathbf {A}}={\begin{pmatrix}\cos(\theta )&-\sin(\theta )\\\sin(\theta )&\cos(\theta )\end{pmatrix}}
+
+    بازتاب نسبت به محور x:
+
+        A = ( 1 0 0 − 1 ) {\displaystyle \mathbf {A} ={\begin{pmatrix}1&0\\0&-1\end{pmatrix}}} {\mathbf {A}}={\begin{pmatrix}1&0\\0&-1\end{pmatrix}}
+
+    بازتاب نسبت به محور y:
+
+        A = ( − 1 0 0 1 ) {\displaystyle \mathbf {A} ={\begin{pmatrix}-1&0\\0&1\end{pmatrix}}} {\mathbf {A}}={\begin{pmatrix}-1&0\\0&1\end{pmatrix}}
+
+    تجانس با نسبت ۲ در همه جهات:
+
+        A = ( 2 0 0 2 ) {\displaystyle \mathbf {A} ={\begin{pmatrix}2&0\\0&2\end{pmatrix}}} {\mathbf {A}}={\begin{pmatrix}2&0\\0&2\end{pmatrix}}
+
+    نگاشت برشی افقی:
+
+        A = ( 1 m 0 1 ) {\displaystyle \mathbf {A} ={\begin{pmatrix}1&m\\0&1\end{pmatrix}}} {\mathbf {A}}={\begin{pmatrix}1&m\\0&1\end{pmatrix}}
+
+    نگاشت فشاری:
+
+        A = ( k 0 0 1 / k ) {\displaystyle \mathbf {A} ={\begin{pmatrix}k&0\\0&1/k\end{pmatrix}}} {\mathbf {A}}={\begin{pmatrix}k&0\\0&1/k\end{pmatrix}}
+
+    تصویر کردن بر روی محور y:
+
+        A = ( 0 0 0 1 ) . {\displaystyle \mathbf {A} ={\begin{pmatrix}0&0\\0&1\end{pmatrix}}.} 

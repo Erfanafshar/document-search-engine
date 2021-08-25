@@ -1,0 +1,130 @@
+قضیه اساسی حسابان
+از ویکی‌پدیا، دانشنامهٔ آزاد
+
+قضیۀ اساسی حساب دیفرانسیل و انتگرال (حسابان)، همان‌طور که از نامش مشخص است، از مهم‌ترین قضایای حساب دیفرانسیل و انتگرال است که رابطه‌ای میان انتگرال معین و نامعین به وجود می‌آورد و همچنین روشی برای محاسبۀ دقیق انتگرال معین یک تابع ارائه می‌دهد.
+
+این قضیه دارای دو بخش است. بخش اول را قضیۀ اساسی اول حساب دیفرانسیل و انتگرال (حسابان) می‌گویند که رابطه‌ای میان انتگرال معین و نامعین برقرار می‌کند و قضیۀ دوم را قضیۀ اساسی دوم حساب دیفرانسیل و انتگرال می‌نامند که روشی برای محاسبۀ انتگرال نامعین ارائه می‌دهد. البته در برخی منابع به قسمت اول قضیۀ اساسی حساب دیفرانسیل و انتگرال اطلاق می‌شود و قسمت دوم (قضیۀ اساسی دوم حساب دیفرانسیل و انتگرال) را به عنوان نتیجه‌ای از قضیۀ اول بیان می‌کنند. ما در اینجا از مورد اول پیروی می‌کنیم و هر یک را جداگانه بررسی می‌کنیم.
+محتویات
+
+    ۱ تاریخچه
+    ۲ قضایای اساسی حساب دیفرانسیل و انتگرال
+        ۲.۱ قضیه اساسی اول حساب دیفرانسیل و انتگرال
+            ۲.۱.۱ برهان
+        ۲.۲ قضیه اساسی دوم حساب دیفرانسیل و انتگرال
+            ۲.۲.۱ برهان اول
+            ۲.۲.۲ برهان دوم
+    ۳ جستارهای وابسته
+    ۴ منابع
+
+تاریخچه
+
+صورت ضعیف‌تری از قضیه و اثبات آن نخستین بار توسط جیمز جرجی (۱۶۷۵–۱۶۳۸) منتشر شد. سپس نسخۀ جامع‌تری از قضیه توسط آیزاک بارو (۱۶۳۰–۱۶۷۷) اثبات شد. پس از او دانشجوی او ایزاک نیوتن (۱۷۲۷–۱۶۴۳) آن را تا حد یک نظریۀ جامع ریاضی توسعه داد و همزمان با او گوتفرید لایبنیتس (۱۷۱۶–۱۶۴۶) با نظام‌مند کردن آن دانش برای مقادیر بسیار کوچک، آن را به صورت نظریه‌ای که امروز می‌شناسیم ارائه کرد.
+قضایای اساسی حساب دیفرانسیل و انتگرال
+
+همان‌طور که اشاره شد، این قضیه دارای دو بخش است که هر یک را جداگانه بیان و اثابت می‌کنیم.
+قضیه اساسی اول حساب دیفرانسیل و انتگرال
+
+فرض کنید f تابعی پیوسته در بازه بسته [a,b] باشد. در این صورت تابع (F(x برای هر x در این بازه که به صورت:
+
+    F ( x ) = ∫ a x f ( t ) d t {\displaystyle F(x)=\int _{a}^{x}f(t)\,dt} F(x)=\int_a^x f(t)\, dt
+
+تعریف می‌شود یک پادمشتق f است، یعنی:
+
+    F ′ ( x ) = f ( x ) {\displaystyle F'(x)=f(x)} F'(x)=f(x)
+
+به این ترتیب رابطه‌ای بین انتگرال معین و نامعین یک تابع وجود دارد. هر پادمشتق یک تابع در هر نقطه به صورت یک انتگرال معین قابل بیان است.
+برهان
+
+برای اثبات قضیه نشان می‌دهیم که مشتق (F(x در بازه [a,b] برابر (f(x است. برای هر x متعلق به بازه
+
+[a,b] داریم:
+
+        F ( x + Δ x ) − F ( x ) = ∫ a x + Δ x f ( t ) d t − ∫ a x f ( t ) d t {\displaystyle F(x+\Delta x)-F(x)=\int _{a}^{x+\Delta x}f(t)\,dt-\int _{a}^{x}f(t)\,dt} F(x+\Delta x)-F(x)=\int_a^{x+\Delta x}f(t)\, dt-\int_a^x f(t)\, dt
+
+    = ∫ a x f ( t ) d t + ∫ x x + Δ x f ( t ) d t − ∫ a x f ( t ) d t = ∫ x x + Δ x f ( t ) d t {\displaystyle =\int _{a}^{x}f(t)\,dt+\int _{x}^{x+\Delta x}f(t)\,dt-\int _{a}^{x}f(t)\,dt=\int _{x}^{x+\Delta x}f(t)\,dt} =\int_a^x f(t)\, dt+\int_{x}^{x+\Delta x}f(t)\, dt-\int_{a}^xf(t)\, dt=\int_x^{x+\Delta x}f(t)\, dt
+
+پس:
+
+    F ′ ( x ) = lim Δ x → 0 F ( x + Δ x ) − F ( x ) Δ x = lim Δ x → 0 ∫ x x + Δ x f ( t ) d t Δ x ( 1 ) {\displaystyle F'(x)=\lim _{\Delta x\to 0}{\frac {F(x+\Delta x)-F(x)}{\Delta x}}=\lim _{\Delta x\to 0}{\frac {\int _{x}^{x+\Delta x}f(t)\,dt}{\Delta x}}\qquad (1)} {\displaystyle F'(x)=\lim _{\Delta x\to 0}{\frac {F(x+\Delta x)-F(x)}{\Delta x}}=\lim _{\Delta x\to 0}{\frac {\int _{x}^{x+\Delta x}f(t)\,dt}{\Delta x}}\qquad (1)}
+
+حال چون f در بازه [x,x+Δx] پیوسته‌است بنابر قضیه مقدار میانگین برای انتگرال‌ها، به ازای [c∈[x,x+Δx داریم:
+
+    ∫ x x + Δ x f ( t ) d t = f ( c ) Δ x {\displaystyle \int _{x}^{x+\Delta x}f(t)\,dt=f(c)\Delta x} \int_x^{x+\Delta x}f(t)\, dt=f(c)\Delta x
+
+با توجه به این مطالب (۱) را می‌توان به این صورت نوشت:
+
+    F ′ ( x ) = lim Δ x → 0 f ( c ) Δ x Δ x = lim Δ x → 0 f ( c ) {\displaystyle F'(x)=\lim _{\Delta x\to 0}{\frac {f(c)\Delta x}{\Delta x}}=\lim _{\Delta x\to 0}f(c)} F'(x)=\lim_{\Delta x \to 0}\frac{f(c)\Delta x}{\Delta x}=\lim_{\Delta x\to 0}f(c)
+
+اما x ≤ c ≤ x + Δ x {\displaystyle x\leq c\leq x+\Delta x} x\le c\le x+\Delta x و وقتی که Δ x → 0 {\displaystyle \Delta x\to 0} \Delta x\to 0 بنابر قضیه فشردگی، c → x {\displaystyle c\to x} c\to x پس عبارت فوق را می‌توان به صورت زیر بازنویسی کرد:
+
+    F ′ ( x ) = lim Δ x → 0 f ( c ) = lim c → x f ( c ) {\displaystyle F'(x)=\lim _{\Delta x\to 0}f(c)=\lim _{c\to x}f(c)} F'(x)=\lim_{\Delta x\to 0}f(c)=\lim_{c\to x}f(c)
+
+اما چون f تابعی پیوسته است پس lim c → x f ( c ) = f ( x ) {\displaystyle \lim _{c\to x}f(c)=f(x)} \lim_{c\to x}f(c)=f(x) ولذا F ′ ( x ) = f ( x ) {\displaystyle F'(x)=f(x)} F'(x)=f(x) و برهان کامل است.∎
+
+به عنوان مثال اگر F ( x ) = ∫ a x sin ⁡ ( t ) d t {\displaystyle F(x)=\int _{a}^{x}\sin(t)\,dt} F(x)=\int_a^x\sin (t)\, dt آنگاه:
+
+    F ′ ( x ) = sin ⁡ x {\displaystyle F'(x)=\sin x} F'(x)=\sin x
+
+همچنین اگر u تابعی از x باشد و F ( x ) = ∫ a u ( x ) f ( t ) d t {\displaystyle F(x)=\int _{a}^{u(x)}f(t)\,dt} F(x)=\int_a^{u(x)} f(t)\, dt و در این صورت:
+
+    F ′ ( x ) = u ′ ( x ) f ( x ) {\displaystyle F'(x)=u'(x)f(x)} F'(x)=u'(x)f(x)
+
+و به‌طور کلی‌تر اگر u و v توابعی از x باشند و F ( x ) = ∫ v ( x ) u ( x ) f ( t ) d t {\displaystyle F(x)=\int _{v(x)}^{u(x)}f(t)\,dt} F(x)=\int_{v(x)}^{u(x)} f(t)\, dt در این صورت:
+
+    F ′ ( x ) = u ′ ( x ) f ( u ( x ) ) − v ′ ( x ) f ( v ( x ) ) {\displaystyle F'(x)=u'(x)f(u(x))-v'(x)f(v(x))} F'(x)=u'(x)f(u(x))-v'(x)f(v(x))
+
+قضیه اساسی دوم حساب دیفرانسیل و انتگرال
+
+این قضیه را می‌توان نتیجه‌ای از قضیه اساسی اول دانست. اگر f تابعی پیوسته در بازه بسته [a,b] باشد و F یک پادمشتق f در این بازه باشد در این صورت:
+
+    ∫ a b f ( x ) d x = F ( b ) − F ( a ) {\displaystyle \int _{a}^{b}f(x)\,dx=F(b)-F(a)} \int_a^b f(x)\, dx=F(b)-F(a)
+
+وضوحاً این قضیه روشی سودمند برای محاسبه انتگرال معین یک تابع در یک بازه توصیه می‌کند که البته همواره کارساز نیست چون همواره برای همه توابع نمی‌توان یک پادمشتق پیدا کرد.
+برهان اول
+
+برای اثبات فرض می‌کنیم G ( x ) = ∫ a x f ( t ) d t {\displaystyle G(x)=\int _{a}^{x}f(t)\,dt} G(x)=\int_a^x f(t)\, dt در این صورت بنابر قضیه اول حساب دیفرانسیل و انتگرال (G(x یک پادمشتق fدر بازه [a,b] است پس G ( x ) = F ( x ) + C {\displaystyle G(x)=F(x)+C} G(x)=F(x)+C اما:
+
+    G ( a ) = F ( a ) + C = ∫ a a f ( t ) d t = 0 {\displaystyle G(a)=F(a)+C=\int _{a}^{a}f(t)\,dt=0} G(a)=F(a)+C=\int_a^a f(t)\, dt=0
+
+    G ( b ) = F ( b ) + C = ∫ a b f ( t ) d t {\displaystyle G(b)=F(b)+C=\int _{a}^{b}f(t)\,dt} G(b)=F(b)+C=\int_a^b f(t)\, dt
+
+پس:
+
+    F ( b ) − F ( a ) = ∫ a b f ( t ) d t {\displaystyle F(b)-F(a)=\int _{a}^{b}f(t)\,dt} F(b)-F(a)=\int_a^b f(t)\, dt
+
+و برهان قضیه تمام است.∎
+
+حال اثباتی دیگر از این قضیه ارائه می‌دهیم که از قضیه اساسی اول مستقل است و بر پایه انتگرال ریمان بنا شده‌است.
+برهان دوم
+
+فرض کنید f تابعی پیوسته در بازه [a,b] باشد و F یک پادمشتق f در این بازه باشد. بازه [a,b] را به n زیربازه با نقاط افراز:
+
+    a = x 0 < x 1 < x 2 < . . . < x n − 1 < x n = b {\displaystyle a=x_{0}<x_{1}<x_{2}<...<x_{n-1}<x_{n}=b} a=x_0<x_1<x_2<...<x_{n-1}<x_n=b
+
+تقسیم می‌کنیم. در این صورت:
+
+    F ( b ) − F ( a ) = ∑ i = 1 n F ( x i ) − F ( x i − 1 ) {\displaystyle F(b)-F(a)=\sum _{i=1}^{n}F(x_{i})-F(x_{i-1})} F(b)-F(a)=\sum_{i=1}^n F(x_i)-F(x_{i-1})
+
+اگر برای هر i بین یک و n طول زیربازه n ام یعنی [xi-1,xi]را با Δ x i {\displaystyle \Delta x_{i}} \Delta x_i نشان دهیم، داریم:
+
+    F ( b ) − F ( a ) = ∑ i = 1 n F ( x i ) − F ( x i − 1 ) Δ x i Δ x i   ( 1 ) {\displaystyle F(b)-F(a)=\sum _{i=1}^{n}{\frac {F(x_{i})-F(x_{i-1})}{\Delta x_{i}}}\Delta x_{i}\qquad \ (1)} F(b)-F(a)=\sum_{i=1}^n \frac{F(x_i)-F(x_{i-1})}{\Delta x_i}\Delta x_i\qquad\ (1)
+
+اما پادمشتق f یعنی F در سراسر بازه [a,b] بخصوص در هر زیربازه این بازه پیوسته‌است (توجه داشته باشید دلیل این امر در خود تعریف پادمشتق نهفته‌است. پادمشتق در سراسر این بازه مشتق‌پذیر است و لذا پیوسته‌است) پس با به‌کارگیری قضیه مقدار میانگین برای توابع پیوسته در هر زیرباره [xi-1,xi] نقطه‌ای چون ci در این بازه وجود دارد که:
+
+    F ′ ( c i ) = f ( c i ) = F ( x i ) − F ( x i − 1 ) Δ x i {\displaystyle F'(c_{i})=f(c_{i})={\frac {F(x_{i})-F(x_{i-1})}{\Delta x_{i}}}} F'(c_i)=f(c_i)=\frac{F(x_i)-F(x_{i-1})}{\Delta x_i}
+
+پس از (۱) داریم:
+
+    F ( b ) − F ( a ) = ∑ i = 1 n f ( c i ) Δ x i {\displaystyle F(b)-F(a)=\sum _{i=1}^{n}f(c_{i})\Delta x_{i}} F(b)-F(a)=\sum_{i=1}^n f(c_i)\Delta x_i
+
+حال نُرم دلتا ‖ Δ ‖ {\displaystyle \|\Delta \|} \|\Delta\| را به عنوان طول طویل‌ترین زیربازه در نظر می‌گیریم یعنی:
+
+    ‖ Δ ‖ = max { Δ x 1 , Δ x 2 , . . . , Δ x n } {\displaystyle \|\Delta \|={\mbox{max}}\{\Delta x_{1},\Delta x_{2},...,\Delta x_{n}\}} \|\Delta\|=\mbox{max}\{\Delta x_1,\Delta x_2,...,\Delta x_n\}
+
+پس بنابر قضیه وجود انتگرال ریمان چون f پیوسته است، داریم:
+
+    lim ‖ Δ ‖ → 0 F ( b ) − F ( a ) = lim ‖ Δ ‖ → 0 ∑ i = 1 n f ( c i ) Δ x i = ∫ a b f ( x ) d x {\displaystyle \lim _{\|\Delta \|\to 0}F(b)-F(a)=\lim _{\|\Delta \|\to 0}\sum _{i=1}^{n}f(c_{i})\Delta x_{i}=\int _{a}^{b}f(x)\,dx} \lim_{\|\Delta\| \to 0}F(b)-F(a)=\lim_{\|\Delta\| \to 0}\sum_{i=1}^n f(c_i)\Delta x_i=\int_a^b f(x)\, dx
+
+پس: F ( b ) − F ( a ) = ∫ a b f ( x ) d x {\displaystyle F(b)-F(a)=\int _{a}^{b}f(x)\,dx} F(b)-F(a)=\int_a^b f(x)\, dx و برهان کامل می‌شود.∎
+
+به عنوان مثال می‌خواهیم ∫ 2 5 x 2 d x {\displaystyle \int _{2}^{5}x^{2}\,dx} \int_2^5 x^2\, dx را محاسبه کنیم. می‌دانیم که ∫ x 2 d x = x 3 3 + C = F ( x ) {\displaystyle \int x^{2}\,dx={\frac {x^{3}}{3}}+C=F(x)} \int x^2\, dx=\frac{x^3}{3}+C=F(x) پس: 
