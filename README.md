@@ -6,7 +6,7 @@
 
     The project was divided into three main phases, each building upon the previous one:
 
-** Phase 1: Basic Information Retrieval**
+**Phase 1: Basic Information Retrieval**
 
     * Implemented core components for indexing and retrieving documents.
     * Tokenization of documents was performed to extract key terms.
@@ -15,7 +15,7 @@
     * Stop words were removed to filter out common, non-informative words.
     * The system supports basic keyword queries to retrieve relevant documents.
 
-** Phase 2: Vector Space Model and Ranking**
+**Phase 2: Vector Space Model and Ranking**
 
     * Advanced the retrieval model to rank search results based on relevance.
     * Documents were represented using the Vector Space Model, with TF-IDF weighting to capture term importance.
@@ -24,7 +24,7 @@
     * Efficiency was improved using techniques like index elimination and heap-based retrieval of top-K results.
     * Champion lists were used to speed up query processing.
 
-** Phase 3: Clustering for Enhanced Retrieval (Optional)**
+**Phase 3: Clustering for Enhanced Retrieval (Optional)**
 
     * Explored the use of document clustering to improve search relevance and speed.
     * Leveraged pre-existing category data from Wikipedia as clusters.
